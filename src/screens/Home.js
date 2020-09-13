@@ -41,7 +41,7 @@ function Home() {
                   return instance;
                 }}
               />
-              <h3 className="gray-text">Swipe <span className="color-cycle">=&gt;</span></h3>
+              <h3 className="gray-text">About me <span className="color-cycle">=&gt;</span></h3>
             </Col>
           </Row>
         </Container>
