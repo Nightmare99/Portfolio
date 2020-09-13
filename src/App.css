@@ -23,10 +23,16 @@
 
 * {
   color: white;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 *:not(i):not(.fa) {
   font-family: 'Fira Code', monospace;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 .dark-background {
@@ -36,6 +42,7 @@
 .max {
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .lime-text {
