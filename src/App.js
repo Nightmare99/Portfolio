@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
+import Home from './screens/Home.js'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AwesomeSlider buttons={true} animation="fallAnimation" bullets={false} fillParent={true} infinite={false}>
+      <div className="max dark-background">
+        <Home/>
+      </div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </AwesomeSlider>
   );
 }
 
