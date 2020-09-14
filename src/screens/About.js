@@ -19,8 +19,8 @@ function About() {
               <h1 className="display-4 cyan-text">About me</h1>
               <h5 className="white-text">
                 I'm a fun-loving creature who enjoys sleep and quality italian food. 
-                If I'm not coding or learning something cool, I'm either working out, playing video games, or 
-                baking something drool-worthy in the oven.
+                If I'm not coding or learning something cool, I'm either working out, writing songs, 
+                playing video games, or baking something drool-worthy in the oven.
               </h5>
               <h5 className="white-text">
                 Currently, I'm on a quest to rediscover myself. 
