@@ -41,6 +41,9 @@ function Home() {
                   return instance;
                 }}
               />
+              <br/>
+              <h3>(And yes, I really like the <span className="color-cycle"> RGB </span>color-cycle effect)</h3>
+              <br/>
               <h3 className="gray-text">About me <span className="color-cycle">=&gt;</span></h3>
             </Col>
           </Row>

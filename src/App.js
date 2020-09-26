@@ -10,14 +10,14 @@ import Projects from './screens/Projects.js';
 function App() {
   return (
     <div className="no-scroll">
-      <AwesomeSlider buttons={true} organicArrows={true} animation="fallAnimation" bullets={false} fillParent={true} infinite={false}>
-        <div className="max dark-background">
+      <AwesomeSlider className="black" buttons={true} organicArrows={true} animation="fallAnimation" bullets={false} fillParent={true} infinite={false}>
+        <div className="max dark-background border-cycle">
           <Home/>
         </div>
-        <div className="max dark-background">
+        <div className="max dark-background border-cycle">
           <About/>
         </div>
-        <div className="max dark-background">
+        <div className="max dark-background border-cycle">
           <Projects/>
         </div>
         <div>4</div>

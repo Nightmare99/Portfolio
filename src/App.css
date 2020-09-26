@@ -57,8 +57,16 @@
   display: none;
 }
 
+.black {
+  background-color: black;
+}
+
 .dark-background {
   background-color: black;
+  padding: 1%;
+  border-style: solid;
+  border-color: cyan;
+  border-radius: 15px;
 }
 
 .max {
@@ -93,4 +101,8 @@
 
 .teal-text {
   color: teal;
+}
+
+a {
+  text-decoration: none;
 }

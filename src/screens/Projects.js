@@ -10,10 +10,10 @@ import Thumb from '../components/Thumb.js';
 
 function Projects() {
     return (
-        <Container className="p-3">
+        <Container className="text-center">
           <Row>
             <Col sm>
-              <h1 className="display-3 lime-text text-center m-5">Projects</h1>
+              <h1 className="display-3 color-cycle text-center m-5">Projects</h1>
             </Col>
           </Row>
           <Row className="justify-content-center">
@@ -53,11 +53,16 @@ function Projects() {
               </a>
             </Col>
             <Col sm>
-              <a href="https://github.com/Nightmare99/CoronaBot" className="btn">
+              <a href="https://github.com/Nightmare99/LANMine" className="btn">
                 <Thumb>
-                  <h3>Corona<span className="lime-text">Bot</span></h3>
+                  <h3>LAN<span className="lime-text">Mine</span></h3>
                 </Thumb>
               </a>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+            Looking for something else? <span className="color-cycle"><a href="https://github.com/Nightmare99"> Click here</a></span>
             </Col>
           </Row>
         </Container>

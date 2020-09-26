@@ -16,7 +16,7 @@ function About() {
                 <img src={Me} className="rounded-circle img-fluid p-3" alt="mee"/>
             </Col>
             <Col sm>
-              <h1 className="display-4 cyan-text">About me</h1>
+              <h1 className="display-4 cyan-text color-cycle">About me</h1>
               <h5 className="white-text">
                 I'm a fun-loving creature who enjoys sleep and quality italian food. 
                 If I'm not coding or learning something cool, I'm either working out, writing songs, 
