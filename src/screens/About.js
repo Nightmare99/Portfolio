@@ -25,7 +25,7 @@ function About() {
               <h5 className="white-text">
                 Currently, I'm on a quest to rediscover myself. 
               </h5>
-              <h3 className="gray-text">My Projects <span className="color-cycle">=&gt;</span></h3>
+              <h3 className="gray-text">My Skills <span className="color-cycle">=&gt;</span></h3>
             </Col>
           </Row>
         </Container>

@@ -5,7 +5,9 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 import Home from './screens/Home.js';
 import About from './screens/About.js';
+import Skills from './screens/Skills.js';
 import Projects from './screens/Projects.js';
+import Contact from './screens/Contact.js';
 
 function App() {
   return (
@@ -18,9 +20,14 @@ function App() {
           <About/>
         </div>
         <div className="max dark-background border-cycle">
+          <Skills/>
+        </div>
+        <div className="max dark-background border-cycle">
           <Projects/>
         </div>
-        <div>4</div>
+        <div className="max dark-background border-cycle">
+          <Contact/>
+        </div>
       </AwesomeSlider>
     </div>
   );

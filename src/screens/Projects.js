@@ -13,7 +13,7 @@ function Projects() {
         <Container className="text-center">
           <Row>
             <Col sm>
-              <h1 className="display-3 color-cycle text-center m-5">Projects</h1>
+              <h1 className="display-5 color-cycle text-center m-5">Projects</h1>
             </Col>
           </Row>
           <Row className="justify-content-center">
@@ -62,7 +62,7 @@ function Projects() {
           </Row>
           <Row>
             <Col>
-            Looking for something else? <span className="color-cycle"><a href="https://github.com/Nightmare99"> Click here</a></span>
+            Want more?<span className="color-cycle"><a href="https://github.com/Nightmare99"> Click here</a></span>
             </Col>
           </Row>
         </Container>
