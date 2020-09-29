@@ -17,7 +17,8 @@ function Home() {
             <Col className="animate__animated animate__bounceInLeft">
               <h1 className="display-1 gray-text">I'm</h1>
               <h1 className="display-1">Vishal Kumar</h1>
-              <a className="btn btn-lg btn-outline-light" href={Resume}>My Resume</a>
+              <a className="btn btn-lg btn-outline-light" href={Resume}>Download My Resume</a>
+              <br/><br/>
             </Col>
             <Col>
               <h1 className="display-4 gray-text animate__animated animate__bounceInRight">And I'm a</h1>
