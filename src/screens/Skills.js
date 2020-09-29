@@ -16,7 +16,7 @@ function Skills() {
             </Col>
             <Col sm>
                 <div className="animate__animated animate__bounceInDown">
-                    <h1 className="display-4">Technical</h1>
+                    <h1 className="display-4">Technical<span role="img" aria-label="trophy">🏆</span></h1>
                     <ul>
                         <li>Backend: Express, Flask, Django</li>
                         <li>Frontend: React, Vue</li>
@@ -26,7 +26,7 @@ function Skills() {
                     </ul>
                 </div>
                 <div className="animate__animated animate__bounceInUp">
-                    <h1 className="display-4">Non-technical</h1>
+                    <h1 className="display-4">Non-technical<span role="img" aria-label="guitar">🎸</span></h1>
                     <ul>
                         <li>Chess</li>
                         <li>Guitar</li>
@@ -34,6 +34,7 @@ function Skills() {
                     </ul>
                     <p className="display-6">Honestly, there's a lot more. This page wouldn't be enough.</p>
                 </div>
+                <h3 className="gray-text">Projects <span className="color-cycle">=&gt;</span></h3>
             </Col>
           </Row>
         </Container>
