@@ -13,9 +13,9 @@ function About() {
         <Container className="p-3">
           <Row>
             <Col sm>
-                <img src={Me} className="rounded-circle img-fluid p-3" alt="mee"/>
+                <img src={Me} className="rounded-circle img-fluid p-3 animate__animated animate__bounceInLeft" alt="mee"/>
             </Col>
-            <Col sm>
+            <Col sm className="animate__animated animate__bounceInRight">
               <h1 className="display-4 cyan-text color-cycle">About me</h1>
               <h5 className="white-text">
                 I'm a fun-loving creature who enjoys sleep and quality italian food. 

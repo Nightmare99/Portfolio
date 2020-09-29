@@ -1,6 +1,7 @@
 import React from 'react';
 import './Thumb.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "animate.css/animate.min.css";
 
 function Thumb(props) {
     return (

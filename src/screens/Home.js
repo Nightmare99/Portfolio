@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "animate.css/animate.min.css";
 import TypeIt from 'typeit-react';
 import {
   Container,
@@ -12,12 +13,12 @@ function Home() {
     return (
         <Container className="p-3">
           <Row>
-            <Col>
+            <Col className="animate__animated animate__bounceInLeft">
               <h1 className="display-1 gray-text">I'm</h1>
               <h1 className="display-1">Vishal Kumar</h1>
             </Col>
             <Col>
-              <h1 className="display-4 gray-text">And I'm a</h1>
+              <h1 className="display-4 gray-text animate__animated animate__bounceInRight">And I'm a</h1>
               <TypeIt
                 element={"h3"}
                 options={{
@@ -26,6 +27,7 @@ function Home() {
                 }}
                 getBeforeInit={instance => {
                   instance
+                    .pause(750)
                     .type("<span class='cyan-text'>Programmer</span>")
                     .pause(750)
                     .delete(10)
@@ -42,9 +44,9 @@ function Home() {
                 }}
               />
               <br/>
-              <h3>(And yes, I really like the <span className="color-cycle"> RGB </span>color-cycle effect)</h3>
+              <h3 className="animate__animated animate__bounceInRight">(And yes, I really like the <span className="color-cycle"> RGB </span>color-cycle effect)</h3>
               <br/>
-              <h3 className="gray-text">About me <span className="color-cycle">=&gt;</span></h3>
+              <h3 className="gray-text animate__animated animate__bounceInRight">About me <span className="color-cycle">=&gt;</span></h3>
             </Col>
           </Row>
         </Container>
