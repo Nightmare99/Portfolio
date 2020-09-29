@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import Resume from '../Resume.pdf';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "animate.css/animate.min.css";
 import TypeIt from 'typeit-react';
@@ -16,11 +17,12 @@ function Home() {
             <Col className="animate__animated animate__bounceInLeft">
               <h1 className="display-1 gray-text">I'm</h1>
               <h1 className="display-1">Vishal Kumar</h1>
+              <a className="btn btn-lg btn-outline-light" href={Resume}>My Resume</a>
             </Col>
             <Col>
               <h1 className="display-4 gray-text animate__animated animate__bounceInRight">And I'm a</h1>
               <TypeIt
-                element={"h3"}
+                element={"h3"} 
                 options={{
                   loop: true,
                   speed: 200
