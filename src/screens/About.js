@@ -23,7 +23,7 @@ function About() {
                 playing video games, or baking something drool-worthy in the oven.
               </h5>
               <h5 className="white-text">
-                Currently, I'm on a quest to rediscover myself. 
+                Currently, I'm pursuing an M. Tech. degree at BITS while working at NielsenIQ. 
               </h5>
               <h3 className="gray-text">My Skills <span className="color-cycle">=&gt;</span></h3>
             </Col>
