@@ -16,7 +16,7 @@ function Home() {
           <Row>
             <Col className="animate__animated animate__bounceInLeft">
               <h1 className="display-1 gray-text">I'm</h1>
-              <h1 className="display-1">Vishal Kumar</h1>
+              <h1 className="display-1 color-cycle">Vishal Kumar</h1>
               <a className="btn btn-lg btn-outline-light" href={Resume}>Download My Resume</a>
               <br/><br/>
             </Col>
@@ -30,7 +30,7 @@ function Home() {
                 }}
                 getBeforeInit={instance => {
                   instance
-                    .pause(750)
+                    .pause(500)
                     .type("<span class='cyan-text'>Programmer</span>")
                     .pause(750)
                     .delete(10)
@@ -42,12 +42,21 @@ function Home() {
                     .type("<span class='magenta-text'>Musician</span>")
                     .pause(750)
                     .delete(8)
-                    .pause(500);
+                    .pause(500)
+                    .type("<span class='cyan-text'>Foodie</span>")
+                    .pause(750)
+                    .delete(6)
+                    .pause(500)
+                    .type("<span class='lime-text'>Gym freak</span>")
+                    .pause(750)
+                    .delete(9)
+                    .pause(500)
+                    .type("<span class='magenta-text'>Student</span>")
+                    .pause(750)
+                    .delete(7);
                   return instance;
                 }}
               />
-              <br/>
-              <h3 className="animate__animated animate__bounceInRight">(And yes, I really like the <span className="color-cycle"> RGB </span>color-cycle effect)</h3>
               <br/>
               <h3 className="gray-text animate__animated animate__bounceInRight">About me <span className="color-cycle">=&gt;</span></h3>
             </Col>

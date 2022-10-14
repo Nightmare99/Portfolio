@@ -1,45 +1,96 @@
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
 
-@keyframes colorPalette {
-	0% {
-		color:  cyan;
-    }
-	50% {
-		color: magenta;
-	}
-	100% {
-		color: lime;
-	}
+@keyframes animatedgradient {
+  0% {
+    border-image: linear-gradient(
+    to bottom, 
+    #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82
+  ) 1 100%;
+  }
+  12.5% {
+    border-image: linear-gradient(
+    to bottom, 
+    #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #f79533
+  ) 1 100%;
+  }
+  25% {
+    border-image: linear-gradient(
+    to bottom, 
+    #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #f79533, #f37055
+  ) 1 100%;
+  }
+  37.5% {
+    border-image: linear-gradient(
+    to bottom, 
+    #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #f79533, #f37055, #ef4e7b
+  ) 1 100%;
+  }
+  50% {
+    border-image: linear-gradient(
+    to bottom, 
+    #5073b8, #1098ad, #07b39b, #6fba82, #f79533, #f37055, #ef4e7b, #a166ab
+  ) 1 100%;
+  }
+  62.5% {
+    border-image: linear-gradient(
+    to bottom, 
+    #1098ad, #07b39b, #6fba82, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8
+  ) 1 100%;
+  }
+  75% {
+    border-image: linear-gradient(
+    to bottom, 
+    #07b39b, #6fba82, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad
+  ) 1 100%;
+  }
+  87.5% {
+    border-image: linear-gradient(
+    to bottom, 
+    #6fba82, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b
+  ) 1 100%;
+  }
+  100% {
+    border-image: linear-gradient(
+    to bottom, 
+    #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82
+  ) 1 100%;
+  }
 }
 
-@keyframes borderColorPalette {
-	0% {
-		border-color:  cyan;
-    }
-	50% {
-		border-color: magenta;
-	}
-	100% {
-		border-color: lime;
-	}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .border-cycle {
-  border: 2px;
-  animation-name: borderColorPalette;
-  animation-duration: 1s;
+  border-right-style: solid;
+  border-left: solid;
+  border-image: linear-gradient(
+    to bottom, 
+    #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82
+  ) 1 100%;
+  animation-name: animatedgradient;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
 }
 
 .color-cycle {
-  color: cyan;
-  animation-name: colorPalette;
-  animation-duration: 1s;
+  background: linear-gradient(
+    90deg, 
+    #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #f79533
+  );
+  background-size: 200% auto;
+  animation-duration: 3s;
+  animation-name: shine;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
   animation-timing-function: linear;
+  animation-direction: forwards;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 * {
@@ -63,9 +114,6 @@
 .dark-background {
   background-color: black;
   padding: 1%;
-  border-right-style: solid;
-  border-left: solid;
-  border-color: cyan;
 }
 
 .max {
