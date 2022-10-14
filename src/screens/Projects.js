@@ -19,9 +19,16 @@ function Projects() {
           </Row>
           <Row className="justify-content-center">
             <Col sm>
-              <a href="https://github.com/Project-Quest/SteamQuest" className="btn animate__animated animate__bounceIn">
+              <a href="https://github.com/Nightmare99/Bedsy-App" className="btn animate__animated animate__bounceIn">
                 <Thumb>
-                  <h3 className="teal-text">SteaM QuesT</h3>
+                  <h3>Bedsy</h3>
+                </Thumb>
+              </a>
+            </Col>
+            <Col sm>
+              <a href="https://github.com/Nightmare99/Fyre" className="btn animate__animated animate__bounceIn">
+                <Thumb>
+                  <h3 className="teal-text">Fyre</h3>
                 </Thumb>
               </a>
             </Col>
@@ -36,13 +43,6 @@ function Projects() {
               <a href="https://github.com/Nightmare99/HashFiend" className="btn animate__animated animate__bounceIn">
                 <Thumb>
                   <h3><span className="red-text">Hash</span>Fiend</h3>
-                </Thumb>
-              </a>
-            </Col>
-            <Col sm>
-              <a href="https://github.com/Nightmare99/BullsNCows" className="btn animate__animated animate__bounceIn">
-                <Thumb>
-                  <h3>BullsNCows</h3>
                 </Thumb>
               </a>
             </Col>
@@ -74,16 +74,18 @@ function Projects() {
           <Row>
             <Col sm className="animate__animated animate__bounceInUp">
               <BigThumb>
-                  <h2>Python Django Web Developer Intern</h2>
-                  <h3 className="gray-text">@ CloverBridge Technologies</h3>
-                  <h5 className="cyan-text">01/05/2019 – 30/06/2019</h5>
+                  <h2>Software Engineer</h2>
+                  <h3 className="gray-text">@ NielsenIQ</h3>
+                  <h5 className="color-cycle">17/01/2021 – today</h5>
                   <p>
-                    As an intern, I was given training
-                    in the Python Django framework and
-                    the opportunity to work in one of
-                    the projects that the company was
-                    currently working on for an offshore
-                    client. 
+                    As a Software Engineer, I am responsible 
+                    for writing and maintaining clean, working and 
+                    testable code 
+                    to achieve business goals. In my current role, 
+                    I have had the opportunity to work with a 
+                    multitude of technologies like TomEE, Oracle SQL, 
+                    Mongodb, Couchbase, Springboot, Angular, Docker, 
+                    ExtJS, etc.
                   </p>
               </BigThumb>
             </Col>
@@ -93,7 +95,7 @@ function Projects() {
               <BigThumb>
                   <h2>Web Developer Intern</h2>
                   <h3 className="gray-text">@ Astra Engineering and Solutions</h3>
-                  <h5 className="cyan-text">01/06/2020 – 30/06/2020</h5>
+                  <h5 className="color-cycle">01/06/2020 – 30/06/2020</h5>
                   <p>
                     As an intern, I was tasked to work
                     on a market analysis application
@@ -103,6 +105,23 @@ function Projects() {
                     like PUBG, CSGO and DotA 2 were
                     taken and the prices of their items
                     were predicted for the next 30 days.
+                  </p>
+              </BigThumb>
+            </Col>
+          </Row>
+          <Row>
+            <Col sm className="animate__animated animate__bounceInUp">
+              <BigThumb>
+                  <h2>Python Django Web Developer Intern</h2>
+                  <h3 className="gray-text">@ CloverBridge Technologies</h3>
+                  <h5 className="color-cycle">01/05/2019 – 30/06/2019</h5>
+                  <p>
+                    As an intern, I was given training
+                    in the Python Django framework and
+                    the opportunity to work in one of
+                    the projects that the company was
+                    currently working on for an offshore
+                    client. 
                   </p>
               </BigThumb>
             </Col>
