@@ -127,7 +127,7 @@ function Projects() {
             </Col>
           </Row>
           <Row className="justify-content-center animate__animated animate__bounceInUp">
-            <h3 className="gray-text">Contact me <span className="color-cycle">=&gt;</span></h3>
+            <h3 className="gray-text">Contact me <span className="color-cycle">&rArr;</span></h3>
           </Row>
         </Container>
     );

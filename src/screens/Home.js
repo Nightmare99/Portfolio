@@ -58,7 +58,7 @@ function Home() {
                 }}
               />
               <br/>
-              <h3 className="gray-text animate__animated animate__bounceInRight">About me <span className="color-cycle">=&gt;</span></h3>
+              <h3 className="gray-text animate__animated animate__bounceInRight">About me <span className="color-cycle">&rArr;</span></h3>
             </Col>
           </Row>
         </Container>

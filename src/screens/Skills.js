@@ -36,7 +36,7 @@ function Skills() {
                     </ul>
                     <p className="display-6">Honestly, there's a lot more. This page wouldn't be enough.</p>
                 </div>
-                <h3 className="gray-text">Projects <span className="color-cycle">=&gt;</span></h3>
+                <h3 className="gray-text">Projects <span className="color-cycle">&rArr;</span></h3>
             </Col>
           </Row>
         </Container>

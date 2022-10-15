@@ -25,7 +25,7 @@ function About() {
               <h5 className="white-text">
                 Currently, I'm pursuing an M. Tech. degree at BITS while working at NielsenIQ. 
               </h5>
-              <h3 className="gray-text">My Skills <span className="color-cycle">=&gt;</span></h3>
+              <h3 className="gray-text">My Skills <span className="color-cycle">&rArr;</span></h3>
             </Col>
           </Row>
         </Container>
